@@ -101,7 +101,7 @@ Test::Unit assertions to a `should'-like syntax.
     s.executables     << 'specrb'
     s.require_path    = 'lib'
     s.has_rdoc        = true
-    s.extra_rdoc_files = ['README', 'SPECS', 'ROADMAP']
+    s.extra_rdoc_files = ['README.rdoc', 'SPECS', 'ROADMAP']
     s.test_files      = Dir['test/{test,spec}_*.rb']
 
     s.author          = 'Christian Neukirchen'
