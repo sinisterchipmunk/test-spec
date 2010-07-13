@@ -1,6 +1,7 @@
 = test/spec, a BDD interface for Test::Unit
 
 Copyright (C) 2006, 2007, 2008, 2009  Christian Neukirchen <mailto:chneukirchen@gmail.com>
+
 Copyright (C) 2010 Christian Neukirchen <mailto:chneukirchen@gmail.com>; Colin MacKenzie IV <mailto:sinisterchipmunk@gmail.com>
 
 
