@@ -244,7 +244,9 @@ before and after hooks like so:
   end
 
 These fire before/after any test-specific hooks. This means that
-config.before(:each) will be executed before a test's before(:all). 
+config.before(:each) will be executed before a test's before(:all).
+ 
+Simply require the helper file into your tests and you're done.
 
 == Shared contexts
 
