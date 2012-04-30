@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    test-spec (1.0)
+      test-unit
+
+GEM
+  specs:
+    test-unit (2.4.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  test-spec!
+  test-unit (= 2.4.7)
