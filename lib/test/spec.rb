@@ -358,7 +358,7 @@ class Test::Spec::TestCase
 
       # Don't let the default_test clutter up the results and don't
       # flunk if no tests given, either.
-      throw :invalid_test  if name.to_s == "default_test"
+      # throw :invalid_test  if name.to_s == "default_test"
     end
 
     def position
@@ -538,6 +538,7 @@ end
 class Test::Spec::Disabled < Test::Unit::Failure    # :nodoc:
   def initialize(name)
     @name = name
+    @location = []
   end
 
   def single_character_display
@@ -550,6 +551,10 @@ class Test::Spec::Disabled < Test::Unit::Failure    # :nodoc:
 
   def long_display
     @name + " is disabled"
+  end
+  
+  def message
+    long_display
   end
 end
 
